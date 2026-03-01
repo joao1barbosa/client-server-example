@@ -1,0 +1,13 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>chat</groupId>
+    <artifactId>chat</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>servidor</module>
+        <module>cliente</module>
+    </modules>
+</project>
