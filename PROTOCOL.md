@@ -127,7 +127,7 @@ Enviado quando o login é recusado. A conexão é encerrada pelo servidor imedia
 ```json
 {
   "type": "LOGIN_FAIL",
-  "reason": "INVALID_USER"
+  "reason": "INVALID_USER_OR_PASSWORD"
 }
 ```
 
@@ -138,11 +138,10 @@ Enviado quando o login é recusado. A conexão é encerrada pelo servidor imedia
 
 **Códigos de `reason`:**
 
-| Código              | Significado                             |
-|---------------------|-----------------------------------------|
-| `INVALID_USER`      | Usuário não existe na lista predefinida |
-| `INVALID_PASSWORD`  | Senha incorreta                         |
-| `ALREADY_CONNECTED` | Usuário já está conectado no momento    |
+| Código                     | Significado                          |
+|----------------------------|--------------------------------------|
+| `INVALID_USER_OR_PASSWORD` | Credênciais Inválidas                |
+| `ALREADY_CONNECTED`        | Usuário já está conectado no momento |
 
 ---
 

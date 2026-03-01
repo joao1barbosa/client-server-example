@@ -1,2 +1,3 @@
 chat/Server.class
 chat/auth/Authenticator.class
+chat/ClientHandler.class
