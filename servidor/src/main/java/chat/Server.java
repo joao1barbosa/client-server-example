@@ -15,7 +15,7 @@ public class Server {
 
         ServerSocket server = new ServerSocket(12345);
         System.out.println("= Servidor Iniciado =");
-        System.out.println("- Aguardando Conexão -");
+        System.out.println("- Aguardando Conexões -");
 
         Socket cliente = server.accept();
         System.out.println("Cliente conectado | Endereço: " + cliente.getRemoteSocketAddress());
