@@ -1,13 +1,12 @@
-<project>
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>chat</groupId>
-    <artifactId>chat</artifactId>
-    <version>1.0</version>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>servidor</module>
-        <module>cliente</module>
-    </modules>
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>chat</groupId>
+  <artifactId>chat</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>servidor</module>
+    <module>cliente</module>
+    <module>comum</module>
+  </modules>
 </project>

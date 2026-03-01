@@ -1,9 +1,7 @@
 package chat;
 
-/**
- * Hello world!
- *
- */
+import chat.comum.protocolo.Message;
+
 public class Client {
     public static void main(String[] args) {
         System.out.println("Hello World!");
