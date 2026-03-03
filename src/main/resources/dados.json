@@ -1,0 +1,49 @@
+{
+  "servidor": {
+    "ip": "192.168.100.12",
+    "porta": 12345,
+    "maxClientes": 10,
+    "nome": "Servidor de Chat",
+    "mensagemBoasVindas": "Bem-vindo ao chat!",
+    "mensagemSaida": "saiu do chat.",
+    "timeoutMs": 30000,
+    "logEmArquivo": true,
+    "arquivoLog": "logs/servidor.log",
+    "versao": "1.0.0",
+    "ambiente": "desenvolvimento"
+  },
+  "usuarios": [
+    {
+      "nome": "admin",
+      "senha": "admin123",
+      "perfil": "ADMIN",
+      "dataCadastro": "2024-01-01",
+      "ativo": true,
+      "email": "admin@chat.com"
+    },
+    {
+      "nome": "joao",
+      "senha": "joao123",
+      "perfil": "USUARIO",
+      "dataCadastro": "2024-01-02",
+      "ativo": true,
+      "email": "joao@chat.com"
+    },
+    {
+      "nome": "maria",
+      "senha": "maria123",
+      "perfil": "USUARIO",
+      "dataCadastro": "2024-01-03",
+      "ativo": true,
+      "email": "maria@chat.com"
+    },
+    {
+      "nome": "convidado",
+      "senha": "guest123",
+      "perfil": "CONVIDADO",
+      "dataCadastro": "2024-01-04",
+      "ativo": false,
+      "email": "convidado@chat.com"
+    }
+  ]
+}
