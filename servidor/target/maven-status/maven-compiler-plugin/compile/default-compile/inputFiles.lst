@@ -1,2 +1,3 @@
 /home/joao/Projects/client-server-example/servidor/src/main/java/chat/Server.java
-/home/joao/Projects/client-server-example/servidor/src/main/java/chat/auth/Autenticator.java
+/home/joao/Projects/client-server-example/servidor/src/main/java/chat/ClientHandler.java
+/home/joao/Projects/client-server-example/servidor/src/main/java/chat/auth/Authenticator.java
