@@ -35,7 +35,6 @@ O sistema utiliza autenticação estática. Os usuários disponíveis estão def
 | Usuário  | Senha        |
 |----------|--------------|
 | `joao`   | (ver código) |
-| `marcelo`| (ver código) |
 | `rubens` | (ver código) |
 
 ## Requisitos
